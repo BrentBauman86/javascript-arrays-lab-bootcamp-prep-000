@@ -10,3 +10,5 @@ kitten.shift();
 
 appendKitten('Broom');
 
+prependKitten('Arnold');
+
