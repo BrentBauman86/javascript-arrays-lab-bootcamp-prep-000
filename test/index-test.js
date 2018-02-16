@@ -1,5 +1,5 @@
 describe('Arrays', function() {
-  beforeEach(function() {
+  beforeEach(function(kittens.length (-2)) {
     window.kittens = ['Milo', 'Otis', 'Garfield'];
   });
 
@@ -11,7 +11,7 @@ describe('Arrays', function() {
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
-      kittens.push('Ralph')
+      destructivelyAppendKitten('Ralph')
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
     })
   })
